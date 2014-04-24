@@ -1,0 +1,9 @@
+%h2 SHA2 hash digest converter v1
+%form{:action => "/calculate-hash",:method =>"post"}
+  %legend
+  //   A simple question
+  %p
+    %label{:for => ""} Please enter the string you want to hash:
+    %input{:type =>"textbox", :name =>"input" , :id =>""}
+  %p
+    %input{:type =>"submit",:value=>"Submit!"}
